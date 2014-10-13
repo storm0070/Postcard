@@ -13,6 +13,7 @@
 		E4B1DE0A19E28FF500D632EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DE0919E28FF500D632EC /* Images.xcassets */; };
 		E4B1DE0D19E28FF500D632EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DE0B19E28FF500D632EC /* LaunchScreen.xib */; };
 		E4B1DE1919E28FF500D632EC /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B1DE1819E28FF500D632EC /* PostcardTests.swift */; };
+		E4B1DE2319E29DEC00D632EC /* tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DE2219E29DEC00D632EC /* tower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E4B1DE1219E28FF500D632EC /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B1DE1719E28FF500D632EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B1DE1819E28FF500D632EC /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		E4B1DE2219E29DEC00D632EC /* tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		E4B1DE0019E28FF500D632EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4B1DE2219E29DEC00D632EC /* tower.jpg */,
 				E4B1DE0119E28FF500D632EC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B1DE0819E28FF500D632EC /* Main.storyboard in Resources */,
+				E4B1DE2319E29DEC00D632EC /* tower.jpg in Resources */,
 				E4B1DE0D19E28FF500D632EC /* LaunchScreen.xib in Resources */,
 				E4B1DE0A19E28FF500D632EC /* Images.xcassets in Resources */,
 			);
@@ -407,6 +411,7 @@
 				E4B1DE1E19E28FF500D632EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B1DE1F19E28FF500D632EC /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				E4B1DE2119E28FF500D632EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
